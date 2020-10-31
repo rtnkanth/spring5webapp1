@@ -51,7 +51,7 @@ public class DevBootstrap implements CommandLineRunner {
 
             authorRepository.save(Rod);
             bookRepository.save(noEJB);
-           publisherRepository.save(publisher);
+            publisherRepository.save(publisher);
 
             System.out.println("Started in Bootstrap");
             System.out.println("Number of Books: " + bookRepository.count());
