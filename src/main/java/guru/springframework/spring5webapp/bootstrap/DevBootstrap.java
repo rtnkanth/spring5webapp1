@@ -26,7 +26,7 @@ public class DevBootstrap implements CommandLineRunner {
         public void run (String...args) throws Exception {
 
             Publisher publisher = new Publisher();
-            publisher.setName("foo");
+            publisher.setName("SFG Publishing");
             publisher.setAddress("12th Street, LA");
             publisherRepository.save(publisher);
 
